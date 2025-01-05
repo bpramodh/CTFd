@@ -328,3 +328,6 @@ def create_app(config="CTFd.config.Config"):
         init_cli(app)
 
         return app
+@app.route('/')
+def index():
+    return render_template('odu_landing.html')
