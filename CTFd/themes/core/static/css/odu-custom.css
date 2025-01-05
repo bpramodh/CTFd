@@ -1,0 +1,19 @@
+/* ODU Custom Styles */
+body {
+    background-color: #f4f4f4;
+    color: #003366;
+}
+
+.logo-container img {
+    width: 200px;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+}
+
+button:hover {
+    background-color: #C0C0C0;
+    color: #003366;
+}
