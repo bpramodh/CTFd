@@ -1,5 +1,9 @@
 {% extends "base.html" %}
-
+{% block head %}
+    {{ super() }}
+    <!-- Link to ODU Custom Stylesheet -->
+    <link rel="stylesheet" href="/themes/core/static/css/odu-custom.css">
+{% endblock %}
 {% block content %}
 <div class="landing-page">
     <div class="logo-container">
